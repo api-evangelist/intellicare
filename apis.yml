@@ -1,8 +1,29 @@
 aid: intellicare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intellicare.png
 name: Intellicare
-description: Intellicare is a company surfaced as a portfolio company of canaan-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  IntelliCare, Inc. was a specialty healthcare services and application software
+  company founded in 1997 and headquartered in South Portland, Maine. It provided
+  medical contact center outsourcing services and technology products, delivering
+  telephone-based (telephonic) nurse triage and clinical decision-support services
+  to health plans, providers, payors, self-insured employers, hospitals, and health
+  management organizations. IntelliCare was a portfolio company of Canaan Partners
+  (with Liberty Medical and Cutlass Capital) and was acquired by PolyMedica
+  Corporation in 2005. The company no longer operates as an independent entity and
+  publishes no public developer program, API, or documentation surface; its former
+  intellicare.com domain is parked and listed for sale. This profile is retained in
+  the API Evangelist network as a historical portfolio-lead record.
 url: https://raw.githubusercontent.com/api-evangelist/intellicare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,28 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: Acquired by PolyMedica Corporation in 2005; no live website or API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Health Services
+- Medical Contact Center
+- Nurse Triage
+- Telehealth
+- Care Management
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
